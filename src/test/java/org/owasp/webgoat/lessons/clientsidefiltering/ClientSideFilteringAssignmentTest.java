@@ -1,6 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: Copyright © 2017 WebGoat authors
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 package org.owasp.webgoat.lessons.clientsidefiltering;
 
-import static org.mockito.Mockito.when;
 import static org.owasp.webgoat.lessons.clientsidefiltering.ClientSideFilteringFreeAssignment.SUPER_COUPON_CODE;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
@@ -19,7 +22,6 @@ public class ClientSideFilteringAssignmentTest extends LessonTest {
 
   @BeforeEach
   public void setup() {
-    when(webSession.getCurrentLesson()).thenReturn(new ClientSideFiltering());
     this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();
   }
 
