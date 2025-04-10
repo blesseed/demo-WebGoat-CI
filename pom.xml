@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.4.3</version>
+    <version>3.4.4</version>
   </parent>
 
   <groupId>org.owasp.webgoat</groupId>
   <artifactId>webgoat</artifactId>
-  <version>2025.3-SNAPSHOT</version>
+  <version>2025.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>WebGoat</name>
@@ -72,20 +72,20 @@
     <commons-io.version>2.18.0</commons-io.version>
     <commons-lang3.version>3.14.0</commons-lang3.version>
     <commons-text.version>1.13.0</commons-text.version>
-    <guava.version>33.4.0-jre</guava.version>
+    <guava.version>33.4.6-jre</guava.version>
     <jacoco.version>0.8.11</jacoco.version>
     <java.version>23</java.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jjwt.version>0.9.1</jjwt.version>
     <jose4j.version>0.9.3</jose4j.version>
     <jquery.version>3.7.1</jquery.version>
-    <jsoup.version>1.18.3</jsoup.version>
+    <jsoup.version>1.19.1</jsoup.version>
     <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
     <maven-failsafe-plugin.version>3.5.2</maven-failsafe-plugin.version>
     <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
     <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
     <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
-    <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>3.5.3</maven-surefire-plugin.version>
     <maven.compiler.proc>full</maven.compiler.proc>
     <maven.compiler.source>23</maven.compiler.source>
     <maven.compiler.target>23</maven.compiler.target>
@@ -96,14 +96,14 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <thymeleaf.version>3.1.2.RELEASE</thymeleaf.version>
     <waittimeForServerStart>60</waittimeForServerStart>
-    <webdriver.version>5.9.3</webdriver.version>
+    <webdriver.version>6.0.0</webdriver.version>
     <webgoat.context>/WebGoat</webgoat.context>
     <webgoat.port>8080</webgoat.port>
     <webgoat.sslenabled>false</webgoat.sslenabled>
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webwolf.context>/WebWolf</webwolf.context>
     <webwolf.port>9090</webwolf.port>
-    <wiremock.version>3.12.0</wiremock.version>
+    <wiremock.version>3.12.1</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
@@ -222,7 +222,7 @@
       <dependency>
         <groupId>com.microsoft.playwright</groupId>
         <artifactId>playwright</artifactId>
-        <version>1.50.0</version>
+        <version>1.51.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
