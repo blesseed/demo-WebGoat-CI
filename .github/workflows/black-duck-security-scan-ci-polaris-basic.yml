@@ -44,4 +44,4 @@ jobs:
           #polaris_test_sca_type: "SCA-SIGNATURE"
             
           ### mhnam added for customized build command
-          coverity.build.command: "./mvnw clean package"
+          coverity.build.command: "mvnw clean package"
