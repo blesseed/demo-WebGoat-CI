@@ -35,3 +35,5 @@ jobs:
           ### Signature scan
           #polaris_test_sca_type: "SCA-SIGNATURE"
             
+          ### mhnam added for customized build command
+          coverity.build.command: "mvn clean compile -DskipITs -DskipTests"
