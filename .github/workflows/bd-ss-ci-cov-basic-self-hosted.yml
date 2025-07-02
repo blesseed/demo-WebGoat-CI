@@ -1,6 +1,6 @@
 # example workflow for Coverity scans using the Black Duck Security Scan Action
 # https://github.com/marketplace/actions/black-duck-security-scan
-name: coverity-ss-action
+name: coverity-ss-action-self-hosted
 on:
   push:
     branches: [ main, master, develop, stage, release ]
@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
 jobs:
   coverity:
-    runs-on: ubuntu-latest
+#   runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - name: Checkout Source
       uses: actions/checkout@v4
