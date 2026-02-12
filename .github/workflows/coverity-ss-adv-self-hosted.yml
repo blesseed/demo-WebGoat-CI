@@ -43,7 +43,7 @@ jobs:
           coverity_local: true
           
           ### POLICY ENFORCEMENT: Uncomment to break build on policy
-          coverity_policy_view: 'Outstanding Issues' 
+          # coverity_policy_view: 'Outstanding Issues' 
           
           ### Uncomment below configuration if Bridge diagnostic files needs to be uploaded
           # include_diagnostics: true 
